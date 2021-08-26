@@ -34,11 +34,11 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "didkit-wasm": "^0.1.7-tz-2"
+    "didkit-wasm": "^0.1.8"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
-    "dev": "webpack serve --content-base public --port 9080",
+    "dev": "webpack serve --content-base public --port 9001",
     "validate": "svelte-check",
     "format": "prettier --write ./src/**/*.{js,svelte,html,ts}",
     "lint": "eslint './src/**/*.{js,ts,svelte}'",
